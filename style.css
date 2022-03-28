@@ -95,3 +95,69 @@ body {
   mix-blend-mode: multiply;
   opacity: 0.7;
 }
+
+/* MEDIA QUERIES */
+
+/****************************/
+/* BELOW 1000PX  */
+/****************************/
+
+@media (max-width: 63em) {
+  .stats {
+    width: 85rem;
+  }
+}
+
+/****************************/
+/* BELOW 860PX  */
+/****************************/
+
+@media (max-width: 54em) {
+  .stats {
+    grid-template-columns: 1fr;
+    width: 60rem;
+    text-align: center;
+  }
+  .stats-content {
+    padding: 6.4rem;
+  }
+
+  .stats-img {
+    grid-row: 1;
+  }
+
+  .primary-heading {
+    font-size: 3rem;
+  }
+}
+
+/****************************/
+/* BELOW 500px  */
+/****************************/
+
+@media (max-width: 31em) {
+  .stats {
+    width: 32rem;
+  }
+
+  .stats-content {
+    padding: 3.6rem;
+  }
+
+  .primary-heading {
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .stats-text {
+    font-size: 1.4rem;
+    margin-bottom: 3.6rem;
+  }
+
+  .stats-data {
+    flex-direction: column;
+    gap: 3.6rem;
+    padding-right: 0;
+    align-items: center;
+  }
+}
