@@ -1,6 +1,6 @@
 ### Screenshot
 
-![](./screenshot.jpg)
+![](images/screenshot.png)
 
 ### Links
 
@@ -15,12 +15,6 @@
 - Flexbox
 - CSS Grid
 - desktop-first workflow
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
 ## Author
 
